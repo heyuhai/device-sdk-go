@@ -15,7 +15,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/common"
 	"github.com/stretchr/testify/assert"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
 )
 
 func TestCheckServiceAvailableByPingWithTimeoutError(test *testing.T) {

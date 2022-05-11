@@ -20,9 +20,9 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/gorilla/mux"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/application"
-	sdkCommon "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/application"
+	sdkCommon "github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 )
 
 func (c *RestController) Command(writer http.ResponseWriter, request *http.Request) {

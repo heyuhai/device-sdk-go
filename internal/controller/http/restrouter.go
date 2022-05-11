@@ -22,8 +22,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/gorilla/mux"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/controller/http/correlation"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/controller/http/correlation"
 )
 
 type RestController struct {

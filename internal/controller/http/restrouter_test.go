@@ -30,8 +30,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 )
 
 func TestAddRoute(t *testing.T) {

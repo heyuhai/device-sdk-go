@@ -22,10 +22,10 @@ import (
 	"strings"
 	"sync"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 
-	"edgeGateway/internal/pkg/edgexsdk/go-mod-messaging/messaging"
-	"edgeGateway/internal/pkg/edgexsdk/go-mod-messaging/pkg/types"
+	"github.com/edgexfoundry/go-mod-messaging/v2/messaging"
+	"github.com/edgexfoundry/go-mod-messaging/v2/pkg/types"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	bootstrapMessaging "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/messaging"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/startup"

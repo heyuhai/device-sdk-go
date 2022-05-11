@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

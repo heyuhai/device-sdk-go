@@ -17,7 +17,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 	"github.com/google/uuid"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
 )
 
 // AddProvisionWatcher adds a new Watcher to the cache and Core Metadata

@@ -13,7 +13,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	dsModels "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	dsModels "github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 )
 
 func TransformWriteParameter(cv *dsModels.CommandValue, pv models.ResourceProperties) errors.EdgeX {

@@ -40,9 +40,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	sdkCommon "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	sdkCommon "github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 )
 
 var expectedCorrelationId = uuid.New().String()

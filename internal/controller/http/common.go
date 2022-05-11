@@ -16,9 +16,9 @@ import (
 	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/common"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 
-	sdkCommon "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/telemetry"
+	sdkCommon "github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/telemetry"
 )
 
 // Ping handles the request to /ping endpoint. Is used to test if the service is working

@@ -16,7 +16,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/gorilla/mux"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/application"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/application"
 )
 
 func (c *RestController) DeleteDevice(writer http.ResponseWriter, request *http.Request) {

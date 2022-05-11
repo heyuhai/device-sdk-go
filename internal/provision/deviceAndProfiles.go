@@ -2,9 +2,9 @@ package provision
 
 import (
 	"context"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/dao"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/pkg/dao"
 	"edgeGateway/internal/pkg/logger"
 	"fmt"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"

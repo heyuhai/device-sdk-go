@@ -8,10 +8,10 @@ package service
 
 import (
 	"context"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/autodiscovery"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/autoevent"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/clients"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/messaging"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/autodiscovery"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/autoevent"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/clients"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/messaging"
 	"os"
 
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap"
@@ -21,8 +21,8 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/startup"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 	"github.com/gorilla/mux"
 )
 

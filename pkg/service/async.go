@@ -18,10 +18,10 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/requests"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/transformer"
-	sdkModels "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/transformer"
+	sdkModels "github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 )
 
 // processAsyncResults processes readings that are pushed from

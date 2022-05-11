@@ -19,12 +19,12 @@ import (
 	"strconv"
 	"sync"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/clients"
-	sdkCommon "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/common"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	restController "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/controller/http"
-	sdkModels "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/clients"
+	sdkCommon "github.com/edgexfoundry/device-sdk-go/v2/internal/common"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	restController "github.com/edgexfoundry/device-sdk-go/v2/internal/controller/http"
+	sdkModels "github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 
 	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/config"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"

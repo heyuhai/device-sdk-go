@@ -12,7 +12,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 	"github.com/stretchr/testify/assert"
 
-	sdkModels "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	sdkModels "github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 )
 
 var d = sdkModels.DiscoveredDevice{

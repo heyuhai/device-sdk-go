@@ -7,7 +7,7 @@
 package container
 
 import (
-	"edgeGateway/internal/pkg/edgexsdk/go-mod-messaging/messaging"
+	"github.com/edgexfoundry/go-mod-messaging/v2/messaging"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 )
 

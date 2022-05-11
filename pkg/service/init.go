@@ -9,7 +9,7 @@ package service
 import (
 	"context"
 	"edgeGateway/internal/pkg/db/mysql"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/provision"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/provision"
 	"edgeGateway/internal/pkg/logger"
 	"fmt"
 	"sync"
@@ -19,8 +19,8 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/gorilla/mux"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
 )
 
 // Bootstrap contains references to dependencies required by the BootstrapHandler.

@@ -12,9 +12,8 @@ import (
 	"fmt"
 	"time"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 
-	"edgeGateway/internal/pkg/edgexsdk/go-mod-messaging/pkg/types"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/interfaces"
@@ -22,6 +21,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/common"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/dtos"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/requests"
+	"github.com/edgexfoundry/go-mod-messaging/v2/pkg/types"
 )
 
 func UpdateLastConnected(name string, lc logger.LoggingClient, dc interfaces.DeviceClient) {

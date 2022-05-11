@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"edgeGateway/internal/pkg/edgexsdk/go-mod-messaging/messaging"
+	"github.com/edgexfoundry/go-mod-messaging/v2/messaging"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/interfaces/mocks"
 	bootstrapMessaging "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/messaging"
@@ -32,8 +32,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 	"github.com/stretchr/testify/assert"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
 )
 
 var lc logger.LoggingClient

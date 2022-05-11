@@ -9,11 +9,11 @@ import (
 	"context"
 	"testing"
 
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/cache"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/config"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/internal/container"
-	sdkModels "edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models"
-	"edgeGateway/internal/pkg/edgexsdk/device-sdk-go/pkg/models/mocks"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/cache"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/config"
+	"github.com/edgexfoundry/device-sdk-go/v2/internal/container"
+	sdkModels "github.com/edgexfoundry/device-sdk-go/v2/pkg/models"
+	"github.com/edgexfoundry/device-sdk-go/v2/pkg/models/mocks"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

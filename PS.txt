@@ -2,4 +2,4 @@ TODO:
 git clone -b v2.2.0-dev.22 https://github.com/edgexfoundry/device-sdk-go.git
 版本为 v2.2.0-dev.22
 
-github.com/edgexfoundry/device-sdk-go/v2 替换为 edgeGateway/internal/pkg/edgexsdk/device-sdk-go
+github.com/edgexfoundry/device-sdk-go/v2 替换为 github.com/edgexfoundry/device-sdk-go/v2
